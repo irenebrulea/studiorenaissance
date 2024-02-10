@@ -1,0 +1,38 @@
+.container-fluid{
+    background-color: black;
+    height: 200vh;
+    width: 100vw;
+
+}
+.menuContainer{
+    height: 150px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    color:white;
+    margin: auto;
+    position: fixed;
+    top: 0;
+}
+.menuCenter,.menuLeft,.menuRight{
+    text-align: center;
+    
+}
+
+.menuLeft{
+    background-color: red;
+    
+}
+
+.menuCenter{
+    background-color: blue;
+
+}
+
+.menuRight{
+    background-color: green;
+
+}
+
+
+
+    
