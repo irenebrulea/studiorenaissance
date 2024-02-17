@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: 100%;
 }
 
 /* .menuLeft{
@@ -60,5 +60,9 @@
 @media(min-width:768px){
     .mobileMenu{
         display: none !important;
+        height: 150px;
+        width: 100%;
+        position: fixed;
+        top: 0;
     }
 }   
