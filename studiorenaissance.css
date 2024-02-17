@@ -4,9 +4,13 @@
     width: 100vw;
 
 }
+
+.menuLeftContanier{
+    width: 100%;
+}
+
 .menuContainer{
     height: 150px;
-    border-bottom: 1px solid white;
     width: 100%;
     color:white;
     margin: auto;
@@ -15,10 +19,13 @@
 }
 .menuCenter,.menuLeft,.menuRight{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.menuLeft{
+/* .menuLeft{
     background-color: red;
     
 }
@@ -31,8 +38,27 @@
 .menuRight{
     background-color: green;
 
+} */
+
+.contacButton{
+    border: 1px solid white;
+    padding: 15px 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+} 
+
+.mobileMenu{
+    color: white;
 }
 
-
-
-    
+@media(max-width:768px){
+    .menuContainer{
+        display: none !important;
+    }
+}  
+@media(min-width:768px){
+    .mobileMenu{
+        display: none !important;
+    }
+}   
