@@ -25,6 +25,13 @@
     height: 100%;
 }
 
+#menuScomparsa{
+    transition: transform .5s ease-out;
+}
+
+.show{
+    transform: translateY(0%) !important;
+}
 /* .menuLeft{
     background-color: red;
     
@@ -61,7 +68,8 @@
     
 }
 .hide{
-    display: none;
+    transform: translateY(-300%);
+    
 }
 @media(max-width:768px){
     .menuContainer{
