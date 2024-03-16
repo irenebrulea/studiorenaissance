@@ -50,8 +50,19 @@
 
 .mobileMenu{
     color: white;
+    height: 150px;
 }
-
+.item{
+    padding: 10px 0;
+}
+.mobileContanier{
+    color: white;
+    text-align: center;
+    
+}
+.hide{
+    display: none;
+}
 @media(max-width:768px){
     .menuContainer{
         display: none !important;
