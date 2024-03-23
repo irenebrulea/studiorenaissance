@@ -16,6 +16,7 @@
     margin: auto;
     position: fixed;
     top: 0;
+    
 }
 .menuCenter,.menuLeft,.menuRight{
     text-align: center;
@@ -85,3 +86,37 @@
         top: 0;
     }
 }   
+
+.text{
+    color: white;
+    padding: 50px 0;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+.title{
+    font-size: 100px;
+}
+.subTitle{
+    width: 70%;
+    margin: auto;
+}
+.subTitle>h5{
+    font-size: 40px !important;
+
+}
+.header{
+    padding: 40px 0;
+}
+.riquadro{
+    width: 80%;
+    margin: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+img{
+    height: 50%;
+}
