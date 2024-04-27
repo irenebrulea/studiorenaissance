@@ -119,9 +119,21 @@
     background-size:cover;
     background-position: center center;
 }
-.darkBackground:hover{
-    background-color: black;
+.darkBackground {
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
+
+.darkBackground:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imgtext {
+    position: absolute;
+    bottom: 0;    
+}
+
 #uno, #cinque{
     background-image: url('immagini/img1.jpg');
 }
