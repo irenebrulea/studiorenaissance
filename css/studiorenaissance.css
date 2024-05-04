@@ -61,16 +61,16 @@
 }
 
 #uno, #cinque{
-    background-image: url('immagini/img1.jpg');
+    background-image: url('../immagini/img1.jpg');
 }
 #due, #sei{
-    background-image: url('immagini/img2.jpg');
+    background-image: url('../immagini/img2.jpg');
 }
 #tre{
-    background-image: url('immagini/img3.jpg');
+    background-image: url('../immagini/img3.jpg');
 }
 #quattro{
-    background-image: url('immagini/img4.jpg');
+    background-image: url('../immagini/img4.jpg');
 }
 .imgtext{
     width: 100%;
