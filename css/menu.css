@@ -45,7 +45,7 @@
     
 }
 .hide{
-    transform: translateY(-300%);
+    transform: translateY(-100%);
     
 }
 @media(max-width:768px){
@@ -53,6 +53,13 @@
         display: none !important;
     }
 }  
+
+@media(max-width:767px){
+    .mobileMenu{
+        display: block !important;
+    }
+}   
+
 @media(min-width:768px){
     .mobileMenu{
         display: none !important;
