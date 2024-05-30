@@ -10,10 +10,12 @@
 }
 
 .menuContainer{
-    height: 150px;
     width: 100%;
     color:white;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* position: fixed; */
     /* top: 0; */
     
@@ -45,7 +47,7 @@
     
 }
 .hide{
-    transform: translateY(-100%);
+    transform: translateY(-150%);
     
 }
 @media(max-width:768px){
