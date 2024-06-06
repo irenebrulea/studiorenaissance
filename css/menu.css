@@ -10,10 +10,12 @@
 }
 
 .menuContainer{
-    height: 150px;
     width: 100%;
     color:white;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* position: fixed; */
     /* top: 0; */
     
@@ -45,7 +47,7 @@
     
 }
 .hide{
-    transform: translateY(-300%);
+    transform: translateY(-150%);
     
 }
 @media(max-width:768px){
@@ -53,6 +55,13 @@
         display: none !important;
     }
 }  
+
+@media(max-width:767px){
+    .mobileMenu{
+        display: block !important;
+    }
+}   
+
 @media(min-width:768px){
     .mobileMenu{
         display: none !important;
